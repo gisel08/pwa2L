@@ -11,9 +11,9 @@ self.addEventListener(
                 fetch('unicorn.jpg')
             );
         }
-        else if (/\.png$/.test(evento.request.url)) {
+        else if (/\.jpg$/.test(evento.request.url)) {
             evento.respondWith(
-                fetch('utp.png')
+                fetch('utp.jpg')
             );
         }
     }
